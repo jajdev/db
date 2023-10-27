@@ -21,6 +21,12 @@ CREATE TABLE tblGuest (
   Phone VARCHAR(20)
 );
 
+CREATE TABLE tblTable (
+  TableId INTEGER PRIMARY KEY,
+  TableNumber INTEGER NOT NULL,
+  Size INTEGER NOT NULL
+);
+
 CREATE TABLE tblDish (
   DishId INTEGER PRIMARY KEY,
   DishName VARCHAR(50) NOT NULL,
